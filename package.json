@@ -1,5 +1,5 @@
 {
-  "name": "gowilds",
+  "name": "yuhe",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "^2.4.0",
     "@next/font": "13.3.2",
     "boxicons": "^2.1.4",
     "next": "13.3.2",

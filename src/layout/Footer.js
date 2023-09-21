@@ -7,42 +7,7 @@ const Footer = ({ bg, extraClass }) => {
     >
       <div className="container">
         {/*=== Footer CTA ===*/}
-        <div className="footer-cta pt-80 pb-40">
-          <div className="row">
-            <div className="col-lg-6">
-              {/*=== Single CTA Item ===*/}
-              <div className="single-cta-item pr-lg-60 mb-40">
-                <div className="icon">
-                  <img src="assets/images/icon/support.png" alt="Icon" />
-                </div>
-                <div className="content">
-                  <h3 className="title">
-                    Butuh bantuan untuk kerjasama?
-                  </h3>
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              {/*=== Single CTA Item ===*/}
-              <div className="single-cta-item pl-lg-60 mb-40">
-                <div className="icon">
-                  <img src="assets/images/icon/travel.png" alt="Icon" />
-                </div>
-                <div className="content">
-                  <h3 className="title">
-                    Pengiriman Ke Area Tegal Slawi
-                  </h3>
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-long-arrow-right" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         {/*=== Footer Widget ===*/}
         <div className="footer-widget-area pt-75 pb-30">
           <div className="row">

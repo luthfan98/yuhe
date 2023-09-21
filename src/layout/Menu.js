@@ -28,7 +28,7 @@ const DeskTopMenu = () => {
             </a>            
           </li>
           <li className="menu-item has-children">
-            <a href="#">
+            <a href="destination">
               Cara Belanja              
             </a>            
           </li>

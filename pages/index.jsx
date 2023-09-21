@@ -29,7 +29,7 @@ const Index4 = () => {
                   <span className="sub-title wow fadeInUp" data-wow-delay=".3s">
                     haloo Juragan
                   </span>
-                  <h1 className="wow fadeInDown" data-wow-delay=".5s">
+                  <h1  className="wow fadeInDown" data-wow-delay=".5s">
                     Belanja dari rumah lebih gampang
                   </h1>
                   <p className="wow fadeInUp" data-wow-delay=".6s">
@@ -47,7 +47,7 @@ const Index4 = () => {
                 </div>
               </div>
               <div className="col-xl-5 d-xl-block d-none">
-                <div
+                <div style={{height:'600px'}}
                   className="hero-image wow fadeInRight"
                   data-wow-delay=".8s"
                 >
@@ -84,7 +84,7 @@ const Index4 = () => {
                     {/*=== Counter Item ===*/}
                     <div className="counter-item mb-55">
                       <h2 className="number">
-                        <Counter end={356} />+
+                      356+
                       </h2>
                       <p>Bakulan</p>
                     </div>
@@ -93,7 +93,7 @@ const Index4 = () => {
                     {/*=== Counter Item ===*/}
                     <div className="counter-item mb-55">
                       <h2 className="number">
-                        <Counter end={250} />+
+                      250+
                       </h2>
                       <p>Juragan</p>
                     </div>
@@ -102,7 +102,7 @@ const Index4 = () => {
                     {/*=== Counter Item ===*/}
                     <div className="counter-item mb-55">
                       <h2 className="number">
-                        <Counter end={4} />+
+                      4+
                       </h2>
                       <p>Distributor</p>
                     </div>
@@ -630,7 +630,7 @@ const Index4 = () => {
                     {/*=== Fancy Icon Box ===*/}
                     <div className="fancy-icon-box-four mb-45 wow fadeInUp">
                       <div className="icon">
-                        <i className="flaticon-rabbit" />
+                        <img src="assets/images/icon/shipped.png" />
                       </div>
                       <div className="text">
                         <h4 className="title">Keamanan Pengiriman</h4>
@@ -644,7 +644,7 @@ const Index4 = () => {
                     {/*=== Fancy Icon Box ===*/}
                     <div className="fancy-icon-box-four mb-45 wow fadeInUp">
                       <div className="icon">
-                        <i className="flaticon-wifi-router" />
+                      <img src="assets/images/icon/delivery-truck.png" />
                       </div>
                       <div className="text">
                         <h4 className="title">Gratis Pengiriman</h4>
@@ -658,7 +658,7 @@ const Index4 = () => {
                     {/*=== Fancy Icon Box ===*/}
                     <div className="fancy-icon-box-four mb-45 wow fadeInUp">
                       <div className="icon">
-                        <i className="flaticon-solar-energy" />
+                      <img src="assets/images/icon/coupon.png" />
                       </div>
                       <div className="text">
                         <h4 className="title">Banyak Diskon</h4>
@@ -672,7 +672,7 @@ const Index4 = () => {
                     {/*=== Fancy Icon Box ===*/}
                     <div className="fancy-icon-box-four mb-45 wow fadeInUp">
                       <div className="icon">
-                        <i className="flaticon-cycling" />
+                      <img src="assets/images/icon/products.png" />
                       </div>
                       <div className="text">
                         <h4 className="title">Produk Lengkap</h4>
@@ -692,6 +692,42 @@ const Index4 = () => {
               </div>
             </div>
           </div>
+          <div className="pt-80 pb-20">
+          <div className="row">
+            <div className="col-lg-6">
+              {/*=== Single CTA Item ===*/}
+              <div className="single-cta-item pr-lg-60 mb-40">
+                <div className="icon">
+                  <img src="assets/images/icon/support.png" alt="Icon" />
+                </div>
+                <div className="content">
+                  <h3 className="title">
+                    Butuh bantuan untuk kerjasama?
+                  </h3>
+                  <a href="#" className="icon-btn">
+                    <i className="far fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              {/*=== Single CTA Item ===*/}
+              <div className="single-cta-item pl-lg-60 mb-40">
+                <div className="icon">
+                  <img src="assets/images/icon/travel.png" alt="Icon" />
+                </div>
+                <div className="content">
+                  <h3 className="title">
+                    Pengiriman Ke Area Tegal Slawi
+                  </h3>
+                  <a href="#" className="icon-btn">
+                    <i className="far fa-long-arrow-right" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         </div>
       </section>
       {/*====== End Why Choose Section ======*/}
