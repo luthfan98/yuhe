@@ -23,14 +23,10 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li className="menu-item has-children">
-            <a href="#">
-              Home              
-            </a>            
+          <Link href="/">Beranda</Link>     
           </li>
-          <li className="menu-item has-children">
-            <a href="destination">
-              Cara Belanja              
-            </a>            
+          <li className="menu-item has-children">             
+            <Link href="#">Cara Belanja</Link>
           </li>
           <li className="menu-item has-children">
             <a href="#">

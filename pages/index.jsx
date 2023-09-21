@@ -1,19 +1,20 @@
+import GallerySection from "@/src/components/GallerySection";
 import Layout from "@/src/layout/Layout";
 import {
   partnerSliderOne,
   sliderActive3Item,
-  sliderActive5Item,
   testimonialSliderOne,
+  sliderActive5Item,
 } from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import { Nav, Tab } from "react-bootstrap";
 import Slider from "react-slick";
-
-
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
 });
-const Index4 = () => {
+
+const Index = () => {
   return (
     <Layout header={4}>
       {/*====== Start Hero Section ======*/}
@@ -26,20 +27,20 @@ const Index4 = () => {
               <div className="col-xl-7">
                 {/*=== Hero Content ===*/}
                 <div className="hero-content">
-                  <span className="sub-title wow fadeInUp" data-wow-delay=".3s">
+                  <span className="sub-title wow fadeInUp" data-wow-delay=".1s">
                     haloo Juragan
                   </span>
-                  <h1  className="wow fadeInDown" data-wow-delay=".5s">
+                  <h1  className="wow fadeInDown" data-wow-delay=".1s">
                     Belanja dari rumah lebih gampang
                   </h1>
-                  <p className="wow fadeInUp" data-wow-delay=".6s">
+                  <p className="wow fadeInUp" data-wow-delay=".1s">
                     Layanan belanja online masa kini cuman dari HP aja
                   </p>
                   {/*=== Hero Search ===*/}
                   
                   <div
                     className="avatar-box wow fadeInUp"
-                    data-wow-delay=".75s"
+                    data-wow-delay=".1s"
                   >
                     <img src="assets/images/about/avater.png" alt />
                     <span>35+ Bakul udah pake aplikasi ini</span>
@@ -49,7 +50,7 @@ const Index4 = () => {
               <div className="col-xl-5 d-xl-block d-none">
                 <div style={{height:'600px'}}
                   className="hero-image wow fadeInRight"
-                  data-wow-delay=".8s"
+                  data-wow-delay=".1s"
                 >
                   <img
                     src="assets/images/hero/image-home.jpg"
@@ -1080,4 +1081,4 @@ const Index4 = () => {
     </Layout>
   );
 };
-export default Index4;
+export default Index;
