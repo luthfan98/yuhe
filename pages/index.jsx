@@ -689,7 +689,7 @@ const Index = () => {
             <div className="col-xl-5">
               {/*=== Experience Box ===*/}
               <div className="experience-box text-center text-xl-right mb-50 wow fadeInRight">
-                <img src="assets/images/features/years.png" alt />
+                <img style={{width:'400px'}} src="assets/images/features/43th.png" alt />
               </div>
             </div>
           </div>
