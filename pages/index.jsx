@@ -70,17 +70,14 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="section-title mb-55 wow fadeInLeft">
                 <span className="sub-title">Yang kita sediakan</span>
-                <h2>Barang paling laris yag banyak Juragan beli</h2>
+                <h2>Barang paling laris yang banyak Juragan beli</h2>
               </div>
             </div>
             <div className="col-lg-6">
               {/*=== Features Content Box ===*/}
               <div className="features-content-box pl-lg-70 wow fadeInRight">
-                <p className="mb-25">
-                  Sit amet consectetue integer eu tincidunt scelerisque. Sodales
-                  volutpat neque fermentum alesuada scelerisque massa.
-                </p>
-                <div className="row justify-content-center">
+                
+                <div style={{marginTop:'65px'}} className="row justify-content-center">
                   <div className="col-sm-4 col-6">
                     {/*=== Counter Item ===*/}
                     <div className="counter-item mb-55">
